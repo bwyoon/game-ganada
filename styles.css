@@ -1,0 +1,18 @@
+
+body { background-color:#ffffff; margin:0; padding:0; }
+img { border:0; padding:0;  margin:0 auto; }
+
+#gamepanel { position:relative; padding:0; margin:0 auto; border:0; background-color:#c0c0c0;
+-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none;  user-select: none;  }
+#replaybutton { position:absolute; left:10px; top:10px; height:35px; width:80px; font-size:12px; }
+#level-div { position:absolute; left:100px; top:15px; height:25px; width:100px; font-size:15px; }
+#level { width:50px; font-size:15px; }
+#time-div { position:absolute; left:210px; top:17px; height:25px; width:50px; font-size:20px; text-align:right; }
+#tilesize-div { position:absolute; left:290px; top:15px; height:25px; width:100px; font-size:15px; }
+#tilesize { width:50px; font-size:15px; }
+.tile { position:absolute; padding:0; margin:0; cursor:default; }
+.emptybox { position:absolute; padding:0; margin:0; cursor:pointer; display: block; z-index:100;}
+.selectbox { position:absolute; padding:0; margin:0; cursor:pointer; display: none; border:3px solid #00ffff; z-index:200; }
+
+#fblike {position:relative; padding:0; margin:0 auto; border:0;}
+
